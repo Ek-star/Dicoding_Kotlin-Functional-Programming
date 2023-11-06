@@ -10,20 +10,20 @@ fun main() {
 
     printResult(10, sum)
 }
-private fun printName(value: String, name: (String) -> String){
-    println(name(value))
+private fun printName(value1: String, name: (String) -> String){
+    println(name(value1))
 }
 
-private fun penjumlahanBilanganDenganDua(value: Int, jumlah: (Int) -> Int) {
-    println(jumlah(value))
+private fun penjumlahanBilanganDenganDua(value2: Int, jumlah: (Int) -> Int) {
+    println(jumlah(value2))
 }
 
-private fun printResult(value: Int, sum: (Int) -> Int) {
-    val result = sum(value)
+private fun printResult(value3: Int, sum: (Int) -> Int) {
+    val result = sum(value3)
     println(result)
 }
 
-private val sum: (Int) -> Int = { value ->
-    value + value
+private val sum: (Int) -> Int = { value4 ->
+    value4 + value4
 }
 
